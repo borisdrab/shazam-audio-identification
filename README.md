@@ -43,10 +43,15 @@ The final implementation was evaluated on the provided validation dataset.
 ## Example Pipeline
 
 Audio Signal
+
 → STFT
+
 → Spectrogram
+
 → Normalization
+
 → Sliding Window Matching
+
 → Song Identification
 
 ## Project Structure
@@ -60,6 +65,7 @@ README.md
 ## Dataset
 
 The dataset was provided as part of the ISS 2025/26 assignment at FIT VUT.
+
 It consists of:
 
 - 706 known 10-second audio recordings
@@ -75,4 +81,5 @@ Detailed analysis and evaluation are available in the project report.
 ## Author
 
 Boris Dráb
+
 FIT VUT Brno
